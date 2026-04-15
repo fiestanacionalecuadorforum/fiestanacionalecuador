@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto | Festival Tricolor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700;800&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./contacto.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav-wrap">
+      <a href="./index.html#accueil" class="brand" aria-label="Festival Tricolor">
+        <img src="./images/logo_fiesta_tricolor.svg" alt="Festival Tricolor" class="brand-logo" />
+      </a>
+      <button id="menuBtn" class="menu-btn" aria-label="Ouvrir le menu">☰</button>
+      <nav id="mainNav" class="nav">
+        <a href="./index.html#apropos" data-i18n="nav.about">À propos</a>
+        <div class="nav-dropdown">
+          <button type="button" class="nav-dropdown-toggle" data-i18n="nav.program" aria-expanded="false">Festival</button>
+          <div class="nav-dropdown-menu">
+            <a href="./index.html#culture" data-i18n="nav.culture">Culture</a>
+            <a href="./index.html#gastronomie" data-i18n="nav.food">Gastronomie</a>
+            <a href="./index.html#programme" data-i18n="nav.artists">Artistas</a>
+            <a href="./contacto.html#contactoForm" data-i18n="nav.stand">Reserva tu stand</a>
+          </div>
+        </div>
+        <a href="./index.html#galerie" data-i18n="nav.gallery">Galerie</a>
+        <a href="./tickets.html" data-i18n="nav.tickets">Tickets</a>
+        <a href="./contacto.html" data-i18n="nav.contactoPage">Contacto</a>
+
+        <select id="langSelect" aria-label="Language selector">
+          <option value="fr">Français</option>
+          <option value="es">Español</option>
+          <option value="ca">Català</option>
+          <option value="en">English</option>
+        </select>
+      </nav>
+    </div>
+  </header>
+
+  <section class="contact-hero">
+    <div class="container">
+      <p class="eyebrow">FESTIVAL TRICOLOR</p>
+      <h1 data-i18n="contacto.heroTitle">Contacto</h1>
+      <p class="subtitle" data-i18n="contacto.heroSubtitle">Nous répondons à toutes tes questions.</p>
+    </div>
+  </section>
+
+  <main class="section">
+    <div class="container contact-layout">
+      <section class="card">
+        <h2 data-i18n="contacto.infoTitle">Informations</h2>
+        <ul class="contact-list">
+          <li data-i18n="contacto.info.email"><strong>Email:</strong> contacto@festivaltricolor.com</li>
+          <li data-i18n="contacto.info.phone"><strong>Téléphone:</strong> +34 600 000 000</li>
+          <li data-i18n="contacto.info.address"><strong>Adresse:</strong> Barcelona, España</li>
+          <li data-i18n="contacto.info.hours"><strong>Horaires:</strong> Lun–Ven, 10:00–18:00</li>
+        </ul>
+
+        <div class="map-wrap">
+          <iframe
+            title="Carte localisation festival"
+            src="https://www.google.com/maps?q=Pla%C3%A7a+de+Francesc+Maci%C3%A0,+8+Oficina+6-B,+08029+Barcelona,+Spain&amp;output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2 data-i18n="contacto.formTitle">Écris-nous</h2>
+        <form id="contactoForm" class="contact-form">
+          <input id="name" type="text" data-i18n-placeholder="contacto.form.name" placeholder="Nom complet" required />
+          <input id="email" type="email" data-i18n-placeholder="contacto.form.email" placeholder="Email" required />
+          <input id="subject" type="text" data-i18n-placeholder="contacto.form.subject" placeholder="Sujet" required />
+          <textarea id="message" rows="5" data-i18n-placeholder="contacto.form.message" placeholder="Message" required></textarea>
+          <button type="submit" class="btn-primary" data-i18n="contacto.form.submit">Envoyer</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-social" aria-label="Réseaux sociaux">
+        <a href="https://www.facebook.com/profile.php?id=61560208431526" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.4-4 4.1V10H8v3h2.7v8h2.8z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/festivaltricolor_bcn/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4A5.8 5.8 0 0 1 16.2 22H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2zm0 2A3.8 3.8 0 0 0 4 7.8v8.4A3.8 3.8 0 0 0 7.8 20h8.4a3.8 3.8 0 0 0 3.8-3.8V7.8A3.8 3.8 0 0 0 16.2 4H7.8zm8.9 1.5a1.3 1.3 0 1 1 0 2.6 1.3 1.3 0 0 1 0-2.6zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg>
+        </a>
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.5-.4-5.2a2.9 2.9 0 0 0-2-2C18.8 4.3 12 4.3 12 4.3s-6.8 0-8.6.5a2.9 2.9 0 0 0-2 2C1 8.5 1 12 1 12s0 3.5.4 5.2a2.9 2.9 0 0 0 2 2c1.8.5 8.6.5 8.6.5s6.8 0 8.6-.5a2.9 2.9 0 0 0 2-2C23 15.5 23 12 23 12zM10 15.5v-7l6 3.5-6 3.5z"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/@festivaltricolorbcn" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3c.2 1.7 1.2 3.3 2.7 4.3 1 .7 2.2 1.1 3.4 1.2v3.2a9 9 0 0 1-4.5-1.2v5.5a6.1 6.1 0 1 1-6.2-6.1c.5 0 1 .1 1.5.2v3.3a3 3 0 1 0 1.6 2.6V3H14z"/></svg>
+        </a>
+      </div>
+      <p data-i18n="footer.copy">© Festival Tricolor 2026 — Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <aside id="cookieBanner" class="cookie-banner" role="dialog" aria-live="polite" aria-label="Bannière cookies" hidden>
+    <p>
+      <span data-i18n="cookies.bannerText">Nous utilisons des cookies pour améliorer votre expérience. Vous pouvez accepter ou refuser les cookies non essentiels.</span>
+      <a href="./cookies.html" data-i18n="cookies.policyLink">Voir la politique de cookies</a>.
+    </p>
+    <div class="cookie-actions">
+      <button type="button" id="cookieReject" class="btn-outline" data-i18n="cookies.reject">Refuser</button>
+      <button type="button" id="cookieAccept" class="btn-primary" data-i18n="cookies.accept">Accepter</button>
+    </div>
+  </aside>
+
+  <button type="button" id="cookieManage" class="cookie-manage-btn" aria-label="Gérer les cookies" data-i18n="cookies.manage">Gérer les cookies</button>
+
+  <script src="./script.js"></script>
+  <script src="./contacto.js"></script>
+</body>
+</html>

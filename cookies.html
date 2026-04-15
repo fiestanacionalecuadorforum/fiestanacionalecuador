@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Politique de cookies | Festival Tricolor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700;800&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav-wrap">
+      <a href="./index.html#accueil" class="brand" aria-label="Festival Tricolor">
+        <img src="./images/logo_fiesta_tricolor.svg" alt="Festival Tricolor" class="brand-logo" />
+      </a>
+      <button id="menuBtn" class="menu-btn" aria-label="Ouvrir le menu">☰</button>
+      <nav id="mainNav" class="nav">
+        <a href="./index.html#apropos" data-i18n="nav.about">À propos</a>
+        <div class="nav-dropdown">
+          <button type="button" class="nav-dropdown-toggle" data-i18n="nav.program" aria-expanded="false">Festival</button>
+          <div class="nav-dropdown-menu">
+            <a href="./index.html#culture" data-i18n="nav.culture">Culture</a>
+            <a href="./index.html#gastronomie" data-i18n="nav.food">Gastronomie</a>
+            <a href="./index.html#programme" data-i18n="nav.artists">Artistas</a>
+            <a href="./contacto.html#contactoForm" data-i18n="nav.stand">Reserva tu stand</a>
+          </div>
+        </div>
+        <a href="./index.html#galerie" data-i18n="nav.gallery">Galerie</a>
+        <a href="./tickets.html" data-i18n="nav.tickets">Tickets</a>
+        <a href="./contacto.html" data-i18n="nav.contactoPage">Contacto</a>
+
+        <select id="langSelect" aria-label="Language selector">
+          <option value="fr">Français</option>
+          <option value="es">Español</option>
+          <option value="ca">Català</option>
+          <option value="en">English</option>
+        </select>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section light">
+    <div class="container" style="max-width: 860px;">
+      <h1 style="font-family: 'League Spartan', sans-serif; font-size: clamp(2rem, 6vw, 3rem); color: var(--blue); text-shadow: none;" data-i18n="cookies.page.title">Politique de cookies</h1>
+      <p style="margin-top: 1rem;" data-i18n="cookies.page.intro">Cette page explique l'utilisation des cookies sur le site Festival Tricolor.</p>
+
+      <h2 style="margin-top: 1.6rem;" data-i18n="cookies.page.section1Title">1. Cookies essentiels</h2>
+      <p data-i18n="cookies.page.section1Text">Ces cookies sont necessaires au bon fonctionnement du site et ne peuvent pas etre desactives.</p>
+
+      <h2 style="margin-top: 1.3rem;" data-i18n="cookies.page.section2Title">2. Cookies de preferences</h2>
+      <p data-i18n="cookies.page.section2Text">Ils permettent de memoriser certains choix utilisateur, comme la langue ou les preferences de consentement.</p>
+
+      <h2 style="margin-top: 1.3rem;" data-i18n="cookies.page.section3Title">3. Gestion du consentement</h2>
+      <p data-i18n="cookies.page.section3Text">Vous pouvez accepter ou refuser les cookies non essentiels via la banniere, puis modifier votre choix avec le bouton "Gerer les cookies".</p>
+
+      <p style="margin-top: 1.6rem;">
+        <a href="./index.html" class="btn-primary" data-i18n="cookies.page.backHome">Retour a l'accueil</a>
+      </p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p data-i18n="footer.copy">© Festival Tricolor 2026 — Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
