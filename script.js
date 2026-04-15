@@ -55,6 +55,8 @@ const translations = {
     "nav.tickets": "Tickets",
     "nav.contactoPage": "Contacto",
     "nav.stand": "Réserve ton stand",
+    "nav.kids": "Zone enfant",
+    "nav.drinks": "Nourriture et boissons",
 
     "hero.eyebrow": "CULTURA · GASTRONOMÍA · ARTE · MÚSICA",
     "hero.titleHtml": "Festival <span>Tricolor</span>",
@@ -70,9 +72,6 @@ const translations = {
 
     "about.title": "À propos",
     "about.text": "Le Festival Tricolor rassemble traditions, danses, artisanat, musique live et saveurs typiques de l’Équateur. Cette version est conçue pour être facilement personnalisable.",
-    "about.quickInfo": "Infos rapides",
-    "about.date": "Date: 01 Août",
-    "about.place": "Lieu: Vila Olímpica",
 
     "program.title": "Programme",
     "program.day1.title": "Jour 1",
@@ -164,6 +163,8 @@ const translations = {
     "nav.tickets": "Entradas",
     "nav.contactoPage": "Contacto",
     "nav.stand": "Reserva tu stand",
+    "nav.kids": "Zona infantil",
+    "nav.drinks": "Comida y bebida",
 
     "hero.subtitle": "Un evento vibrante para celebrar la cultura ecuatoriana.",
 
@@ -176,9 +177,6 @@ const translations = {
 
     "about.title": "Sobre nosotros",
     "about.text": "El Festival Tricolor reúne tradiciones, danzas, artesanía, música en vivo y sabores típicos de Ecuador. Esta versión está diseñada para ser fácilmente personalizable.",
-    "about.quickInfo": "Información rápida",
-    "about.date": "Fecha: 01 de agosto",
-    "about.place": "Lugar: Vila Olímpica",
 
     "program.title": "Programa",
     "program.day1.title": "Día 1",
@@ -269,6 +267,8 @@ const translations = {
     "nav.contact": "Contacte",
     "nav.tickets": "Entrades",
     "nav.contactoPage": "Contacte",
+    "nav.kids": "Zona infantil",
+    "nav.drinks": "Menjar i beguda",
 
     "hero.subtitle": "Un evento vibrant per celebrar la cultura equatoriana.",
 
@@ -281,9 +281,6 @@ const translations = {
 
     "about.title": "Sobre nosaltres",
     "about.text": "El Festival Tricolor reuneix tradicions, dances, artesania, música en directe i sabors típics d'Equador. Aquesta versió està dissenyada per ser fàcilment personalitzable.",
-    "about.quickInfo": "Informació ràpida",
-    "about.date": "Data: 01 d'agost",
-    "about.place": "Lloc: Vila Olímpica",
 
     "program.title": "Programa",
     "program.day1.title": "Dia 1",
@@ -375,11 +372,10 @@ const translations = {
     "nav.contact": "Contact",
     "nav.tickets": "Tickets",
     "nav.contactoPage": "Contact",
+    "nav.kids": "Kids area",
+    "nav.drinks": "Food and drinks",
     "about.title": "About",
     "about.text": "Tricolor Festival brings together traditions, dances, crafts, live music and typical flavors of Ecuador. This version is designed to be easily customizable.",
-    "about.quickInfo": "Quick Info",
-    "about.date": "Date: August 01",
-    "about.place": "Location: Vila Olímpica",
 
     "program.title": "Program",
     "program.day1.title": "Day 1",

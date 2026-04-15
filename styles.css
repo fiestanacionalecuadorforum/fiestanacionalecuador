@@ -85,7 +85,7 @@ body {
 .nav-dropdown-menu {
   display: none;
   position: absolute;
-  top: calc(100% + .45rem);
+  top: 100%;
   left: 0;
   min-width: 190px;
   background: #fff;
@@ -512,25 +512,22 @@ input, textarea {
   }
 
   .nav-dropdown-toggle {
-    width: 100%;
-    text-align: left;
-    padding: .1rem 0;
+    display: none;
   }
 
   .nav-dropdown-menu {
+    display: block;
     position: static;
     min-width: 0;
-    margin-top: .35rem;
+    margin-top: 0;
+    border: 0;
+    padding: 0;
     box-shadow: none;
     border-radius: 6px;
   }
 
-  .nav-dropdown:hover .nav-dropdown-menu {
-    display: none;
-  }
-
-  .nav-dropdown.open .nav-dropdown-menu {
-    display: block;
+  .nav-dropdown-menu a {
+    padding-left: 0;
   }
 
   .two-col, .grid-3, .gallery { grid-template-columns: 1fr; }
